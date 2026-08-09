@@ -5,26 +5,30 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel = "icon" type="image/jpg" href="icons/farhan_Khan.jpg">
   <title>Lyrics of Jannat</title>
+  <link rel="stylesheet" href="jannatStyle.css">
 </head>
 <body>
   <header>
-    <div>
-      <h1>Lyrics of Jannat</h1>
-      <a href="https://youtu.be/OxWvy1XH7cg?si=ct9uI6GM01E7S1pX" target="_blank">
-        <img src="images/jannat.jpg" alt="Jannat_album_cover"  height="200">
-      </a>
-      <p>Click to play the music</p>
-      <audio controls>
-        <source src="audio/jannat.mp3" type="audio/mpeg">
-      </audio>
-      <hr>
-    </div>
+    <div id = "spliter">
+      <div id = "heading_name_player">
+        <h1 id = "heading_song_name">Lyrics of Jannat</h1>
+        <a href="https://youtu.be/OxWvy1XH7cg?si=ct9uI6GM01E7S1pX" target="_blank">
+          <img src="images/jannat.jpg" alt="Jannat_album_cover"  height="200">
+        </a>
+        <p id = "play_message">Click to play the music</p>
+        <audio controls>
+          <source src="audio/jannat.mp3" type="audio/mpeg">
+        </audio>
+        
+      </div>
 
-    <div>
-      <video controls autoplay muted width = 400px>
-        <source src="video/jannat.mp4" type="video/mp4">
-      </video>
+      <div id = "video_container">
+        <video controls autoplay muted width = 400px>
+          <source src="video/jannat.mp4" type="video/mp4">
+        </video>
+      </div>
     </div>
+    <hr>
 
   </header>
   
